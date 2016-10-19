@@ -1,35 +1,35 @@
-/////model/////
+// /////model/////
 
-function Model() {
+// function Model() {
 
-	// console.log(this.calculate);
-}
+// 	// console.log(this.calculate);
+// }
 
-Model.prototype.calculate = function(a, b) {
-	this.sum = a+b;
-	return this.sum;	
-};
+// Model.prototype.calculate = function(a, b) {
+// 	this.sum = a+b;
+// 	return this.sum;	
+// };
 	
-// Model();
-////view//////
+// // Model();
+// ////view//////
 
-function View() {
-	this.myId = document.getElementById('myId');
+// function View() {
+// 	this.myId = document.getElementById('myId');
 
-}
+// }
 
-View.prototype.displayResults = function(a) {
-	this.myId.innerHTML = a;
-}
+// View.prototype.displayResults = function(a) {
+// 	this.myId.innerHTML = a;
+// }
 
-////controller///
+// ////controller///
 
-function Controller(first, second) {
+// function Controller(first, second) {
 
-	this.myModel = new Model();
-	this.myView = new View();
+// 	this.myModel = new Model();
+// 	this.myView = new View();
 
-	this.myView.displayResults(this.myModel.calculate(first, second));
-}
+// 	this.myView.displayResults(this.myModel.calculate(first, second));
+// }
 
-Controller(30, 30);
+// Controller(3, 30);

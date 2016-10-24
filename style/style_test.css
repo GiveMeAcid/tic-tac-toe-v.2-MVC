@@ -20,8 +20,8 @@ body {
     outline: none;
     font-size: 23px;
     color: #7b3487;
-    box-shadow: 0 0px 5px rgba(119, 7, 84, 0.9);
-    text-shadow: 0 0px 5px rgba(119, 7, 84, 0.3);
+    box-shadow: 0 0 5px rgba(119, 7, 84, 0.9);
+    text-shadow: 0 0 5px rgba(119, 7, 84, 0.3);
     background: url('http://subtlepatterns2015.subtlepatterns.netdna-cdn.com/patterns/cork-wallet.png');
     cursor: pointer;
     font-family: CURSIVE;

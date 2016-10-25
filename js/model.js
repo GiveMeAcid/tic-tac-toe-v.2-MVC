@@ -47,15 +47,4 @@ var model = {
             elem.innerHTML = 'O';
         }
     }
-
-
-    // number: 0,
-
-    // calculate: function(x, y) {
-    //  this.number = x * y;
-    //  var result = this.number;
-
-    //  view.showNumber(result);
-    // }
-
 };

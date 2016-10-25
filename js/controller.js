@@ -31,7 +31,7 @@ var controller = {
     checkForVictory: function() {
         var localDocument = document.getElementsByClassName("box");
              
-        if (localDocument[0,1,2].innerHTML === "X" || localDocument[3,4,5].innerHTML === "X" || localDocument[6,7,8].innerHTML === "X") {
+        if (localDocument[0].innerHTML === "X" || localDocument[1].innerHTML === "X" || localDocument[2].innerHTML === "X") {
             alert("X win");
             this.initField();
             model.createField(sizeOfThree);

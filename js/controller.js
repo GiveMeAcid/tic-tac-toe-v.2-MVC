@@ -36,7 +36,6 @@ var controller = {
             this.initField();
             model.createField(sizeOfThree);
         }
-
         else if (localDocument[0].innerHTML === "X" && localDocument[4].innerHTML === "X" && localDocument[8].innerHTML === "X") {
             alert("X win");
             this.initField();

@@ -69,46 +69,5 @@ var controller = {
             this.initField();
             model.createField(model.maxLength);
         } 
-             
-        // if (localDocument[0].innerHTML === "X" && localDocument[1].innerHTML === "X" && localDocument[2].innerHTML === "X") {
-        //     alert("X win");
-        //     this.initField();
-        //     model.createField(sizeOfThree);
-        // }
-        // else if (localDocument[3].innerHTML === "X" && localDocument[4].innerHTML === "X" && localDocument[5].innerHTML === "X") {
-        //     alert("X win");
-        //     this.initField();
-        //     model.createField(sizeOfThree);
-        // }
-        // else if (localDocument[6].innerHTML === "X" && localDocument[7].innerHTML === "X" && localDocument[8].innerHTML === "X") {
-        //     alert("X win");
-        //     this.initField();
-        //     model.createField(sizeOfThree);
-        // }
-        // else if (localDocument[0].innerHTML === "X" && localDocument[4].innerHTML === "X" && localDocument[8].innerHTML === "X") {
-        //     alert("X win");
-        //     this.initField();
-        //     model.createField(sizeOfThree);
-        // }
-        // else if (localDocument[2].innerHTML === "X" && localDocument[4].innerHTML === "X" && localDocument[6].innerHTML === "X") {
-        //     alert("X win");
-        //     this.initField();
-        //     model.createField(sizeOfThree);
-        // }
-        // else if (localDocument[0].innerHTML === "X" && localDocument[3].innerHTML === "X" && localDocument[6].innerHTML === "X") {
-        //     alert("X win");
-        //     this.initField();
-        //     model.createField(sizeOfThree);
-        // }
-        // else if (localDocument[1].innerHTML === "X" && localDocument[4].innerHTML === "X" && localDocument[7].innerHTML === "X") {
-        //     alert("X win");
-        //     this.initField();
-        //     model.createField(sizeOfThree);
-        // }
-        // else if (localDocument[2].innerHTML === "X" && localDocument[5].innerHTML === "X" && localDocument[8].innerHTML === "X") {
-        //     alert("X win");
-        //     this.initField();
-        //     model.createField(sizeOfThree);
-        // }
     }
 };
